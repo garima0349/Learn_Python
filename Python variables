@@ -1,0 +1,27 @@
+# global variables
+
+x= "Iron Man"
+def Aven():
+  print(x, "is","my", "favorite",".")
+Aven()
+
+
+#same name as global variable name (local Variable)
+
+x="Iron man"
+def Aven():
+   x= "Robert Downey Jr."
+   print(x, "is", "my", "favorite", ".")
+Aven()
+print(x)
+
+#global keyword
+
+x="Iron Man"
+def Aven():
+   global x
+   x="Robert Downey Jr."
+   print(x, "is", "my", "favorite", ".")
+Aven()
+print(x)
+   
