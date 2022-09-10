@@ -1,0 +1,14 @@
+print("Welcome to Shop Name Generator")
+name_of_city = input("What's the name of the city you grew up in?\n")
+pet_name = input("What's your pet name ?\n")
+print("Your Shop Name could be " + name_of_city + " " + pet_name )
+
+
+Output:
+
+Welcome to Shop Name Generator
+What's the name of the city you grew up in?
+Dallas
+What's your pet name ?
+Mark
+Your Shop Name could be Dallas Mark
