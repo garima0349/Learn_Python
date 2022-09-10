@@ -1,0 +1,56 @@
+# print() function
+
+print("Hello World!")
+
+Output : Hello World!
+------------------------------------------------------
+
+# syntax error
+print("Hello World !)
+
+output: File "main.py", line 7
+    print("Hello World !)
+                        ^
+SyntaxError: EOL while scanning string literal
+
+----------------------------------------------------
+# multiple times strings
+
+#print ("Hello \n" "Hello \n" "Hello" )
+
+output:
+Hello 
+Hello 
+Hello
+-----------------------------------------------------
+
+# Indentation error
+
+ print("Hello")
+
+Output:
+File "main.py", line 13
+    print("Hello")
+    ^
+IndentationError: unexpected indent
+
+---------------------------------------------------
+
+# Concatenate
+
+print ("Hello" + " " + "World" + " " + "!")
+
+Output
+Hello World !
+-----------------------------------------------------
+
+# parsing : extra misplaced parenthesis
+
+print(("Hi")
+
+Output:
+ File "main.py", line 19
+    
+                ^
+SyntaxError: unexpected EOF while parsing
+-----------------------------------------------------
